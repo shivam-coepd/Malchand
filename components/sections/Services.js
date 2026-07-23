@@ -18,7 +18,7 @@ export default function Services() {
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-lg-4 col-md-6 col-sm-10">
-                            <div className="services-item">
+                            <div className="services-item wow fadeInUp" data-wow-delay=".2s">
                                 <div className="services-thumb">
                                     <Link href="#"><img src="/assets/img/images/cat_hotel.png" alt="Premium Hotels" /></Link>
                                 </div>
@@ -30,7 +30,7 @@ export default function Services() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-10">
-                            <div className="services-item">
+                            <div className="services-item wow fadeInUp" data-wow-delay=".4s">
                                 <div className="services-thumb">
                                     <Link href="#"><img src="/assets/img/images/cat_resort.png" alt="Resorts" /></Link>
                                 </div>
@@ -42,7 +42,7 @@ export default function Services() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-10">
-                            <div className="services-item">
+                            <div className="services-item wow fadeInUp" data-wow-delay=".6s">
                                 <div className="services-thumb">
                                     <Link href="#"><img src="/assets/img/images/cat_retreat.png" alt="Vacation Retreats" /></Link>
                                 </div>

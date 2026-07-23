@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function MeetCEO() {
     return (
-        <section className="meet-ceo-area pt-130">
+        <section className="meet-ceo-area pt-130 md:pl-40">
             <div className="container-fluid p-0">
                 <div className="row align-items-center g-0">
                     <div className="col-lg-6">

@@ -46,7 +46,7 @@ export default function MainBusiness() {
                 {/* Grid Section */}
                 <div className="row">
                     {businessData.map((item, index) => (
-                        <div className="col-lg-4 col-md-6 mb-30" key={index}>
+                        <div className="col-lg-4 col-md-6 mb-30 wow fadeInUp" data-wow-delay={`.${(index + 1) * 2}s`} key={index}>
                             <div className="business-item-wrap text-center">
                                 {/* Image & Hover Overlay */}
                                 <div className="business-img-container">

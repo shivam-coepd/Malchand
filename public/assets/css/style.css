@@ -4456,4 +4456,20 @@ p {
     letter-spacing: 2px;
     margin-bottom: 15px;
     color: var(--tg-primary-color, #777);
+}/* --- Custom Smooth Animations --- */
+.services-item, .business-item-wrap, .project-item, .team-item {
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+}
+.services-item:hover, .business-item-wrap:hover, .project-item:hover, .team-item:hover {
+    transform: translateY(-10px) !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08) !important;
+}
+.services-thumb img, .business-img-container img, .project-thumb img, .team-thumb img {
+    transition: transform 0.6s ease !important;
+}
+.services-item:hover .services-thumb img, 
+.business-item-wrap:hover .business-img-container img, 
+.project-item:hover .project-thumb img, 
+.team-item:hover .team-thumb img {
+    transform: scale(1.05) !important;
 }
