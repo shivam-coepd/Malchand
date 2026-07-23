@@ -12,7 +12,7 @@ function AboutUsStyleOne({ sectionSpace }) {
                 channel="youtube"
                 autoplay
                 isOpen={isOpen}
-                videoId="X7R-q9rsrtU"
+                videoId="mJVuZiK9a6I"
                 onClose={() => setOpen(false)}
             />
             <div className={`ltn__about-us-area ${sectionSpace}`}>
@@ -70,7 +70,7 @@ function AboutUsStyleOne({ sectionSpace }) {
                                 </div>
                                 <div className="btn-wrapper animated mt-30">
                                     <Link
-                                        href="/service"
+                                        href="#"
                                         className="btn-primary-standard"
                                     >
                                         OUR SERVICES

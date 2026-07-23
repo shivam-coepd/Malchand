@@ -5,7 +5,7 @@ const PageHead = ({ headTitle }) => {
         <>
             <Head>
                 <title>
-                    {headTitle ? headTitle : "Reland - Real Estate Group HTML Template"}
+                    {headTitle ? headTitle : "MALCHAND INTERNATIONAL REALTY - Hospitality Business Investments"}
                 </title>
             </Head>
         </>

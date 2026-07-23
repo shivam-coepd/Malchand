@@ -12,7 +12,7 @@ export default function Parallax() {
             title: "Exceptional Hotels",
             description: "Buying, Selling & Leasing of world-class hotel properties across India.",
             ctaText: "Explore Hotels",
-            ctaLink: "/hotels"
+            ctaLink: "#"
         },
         {
             videoUrl: "https://cdn.pixabay.com/video/2015/10/27/1188-143842652_large.mp4", // Replace with Resorts video
@@ -20,7 +20,7 @@ export default function Parallax() {
             title: "Premium Resorts",
             description: "Curated resort investments offering unparalleled hospitality experiences.",
             ctaText: "Discover Resorts",
-            ctaLink: "/resorts"
+            ctaLink: "#"
         },
         {
             videoUrl: "https://cdn.pixabay.com/video/2015/10/16/1027-142621279_large.mp4", // Replace with Retreats video
@@ -28,7 +28,7 @@ export default function Parallax() {
             title: "Iconic Residential Vacation Retreats",
             description: "Invest in legacy vacation retreats that redefine luxury living.",
             ctaText: "View Retreats",
-            ctaLink: "/retreats"
+            ctaLink: "#"
         }
     ];
 
@@ -93,7 +93,7 @@ export default function Parallax() {
 
             </div>
             <div className="banner-scroll-down">
-                <Link href="#services" className="section-link">
+                <Link href="#" className="section-link">
                     <span />
                     <span />
                     <span />

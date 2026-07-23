@@ -1,7 +1,7 @@
 import Link from "next/link"
 import MobileMenu from "./MobileMenu"
 
-export default function Header7({ handleMobileMenu, scroll }) {
+export default function Header({ handleMobileMenu, scroll }) {
     return (
         <>
             <header className={`header-style-six header-exact-match ${!scroll ? "header-initial-state" : ""}`}>
@@ -48,57 +48,34 @@ export default function Header7({ handleMobileMenu, scroll }) {
                                         </div>
                                         <div className="navbar-wrap main-menu d-none d-lg-flex">
                                             <ul className="navigation">
-                                                <li className="active menu-item-has-children"><Link href="#">Home</Link>
-                                                    <ul className="sub-menu">
-                                                        <li><Link href="/">Home One</Link></li>
-                                                        <li><Link href="index-2">Home Two</Link></li>
-                                                        <li><Link href="index-3">Home Three</Link></li>
-                                                        <li><Link href="index-4">Home Four</Link></li>
-                                                        <li><Link href="index-5">Home Five</Link></li>
-                                                        <li><Link href="index-6">Home Six</Link></li>
-                                                        <li className="active"><Link href="index-7">Home Seven</Link></li>
-                                                        <li><Link href="index-8">Home Eight</Link></li>
-                                                    </ul>
+                                                <li className="active "><Link href="/">Home</Link>
                                                 </li>
                                                 <li className="menu-item-has-children"><Link href="#">About</Link>
                                                     <ul className="sub-menu">
-                                                        <li><Link href="overview">Overview</Link></li>
-                                                        <li><Link href="mission">Mission</Link></li>
-                                                        <li><Link href="team">Our Team</Link></li>
-                                                        <li><Link href="team-details">Team Profile</Link></li>
+                                                        <li><Link href="#">Overview</Link></li>
+                                                        <li><Link href="#">Mission</Link></li>
+                                                        <li><Link href="#">Vision</Link></li>
+                                                        <li><Link href="#">Our Team</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li className="menu-item-has-children"><Link href="#">Property</Link>
                                                     <ul className="sub-menu">
-                                                        <li><Link href="project">Projects Two Col</Link></li>
-                                                        <li><Link href="project-two">Projects Three Col</Link></li>
-                                                        <li><Link href="project-three">Projects Four Col</Link></li>
-                                                        <li><Link href="project-details">Projects Single</Link></li>
+                                                        <li><Link href="#">Hotels</Link></li>
+                                                        <li><Link href="#">Resorts</Link></li>
+                                                        <li><Link href="#">Retreats</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li className="menu-item-has-children"><Link href="#">News</Link>
-                                                    <ul className="sub-menu">
-                                                        <li><Link href="blog">Blog Grid</Link></li>
-                                                        <li><Link href="blog-sidebar">Blog Grid Sidebar</Link></li>
-                                                        <li><Link href="blog-list">Blog Standard</Link></li>
-                                                        <li><Link href="blog-details">Blog Single</Link></li>
-                                                    </ul>
+                                                <li className=""><Link href="#">News</Link>
                                                 </li>
-                                                <li className="menu-item-has-children"><Link href="#">Pages</Link>
-                                                    <ul className="sub-menu">
-                                                        <li><Link href="sirvices">Services</Link></li>
-                                                        <li><Link href="testimonial">Testimonials</Link></li>
-                                                        <li><Link href="faq">Faq</Link></li>
-                                                        <li><Link href="error">404 Error</Link></li>
-                                                    </ul>
+                                                <li className=""><Link href="#">Services</Link>
                                                 </li>
-                                                <li><Link href="contact">Contact</Link></li>
+                                                <li><Link href="#">Contact</Link></li>
                                             </ul>
                                         </div>
                                         <div className="header-action d-none d-md-block">
                                             <ul className="list-wrap">
                                                 <li className="header-btn">
-                                                    <Link href="/contact" className="btn hero-outline-btn header-solid-btn">
+                                                    <Link href="#" className="btn hero-outline-btn header-solid-btn">
                                                         <div className="btn_m">
                                                             <div className="btn_c">
                                                                 <div className="btn_t1">Add Listing</div>
@@ -116,7 +93,7 @@ export default function Header7({ handleMobileMenu, scroll }) {
                                     <nav className="menu-box">
                                         <div className="close-btn" onClick={handleMobileMenu}><i className="fas fa-times" /></div>
                                         <div className="nav-logo">
-                                            <Link href="/"><img src="/assets/img/logo/logo02.png" alt="Logo" /></Link>
+                                            <Link href="/"><img src="/assets/img/logo/malchand_logo.png" alt="Logo" /></Link>
                                         </div>
                                         <div className="menu-outer">
                                             <MobileMenu />

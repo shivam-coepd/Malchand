@@ -1,26 +1,25 @@
 import Layout from "@/components/layout/Layout"
-import About from "@/components/sections/About"
-import Blog from "@/components/sections/Blog"
-import Brand from "@/components/sections/Brand"
-import Features from "@/components/sections/Features"
+import Banner from "@/components/sections/Banner"
 import Newsletter from "@/components/sections/Newsletter"
-import Project from "@/components/sections/Project"
-import Slider from "@/components/sections/Slider"
-import Testimonial from "@/components/sections/Testimonial"
-import Video from "@/components/sections/Video"
-export default function Home1() {
+import Parallax from "@/components/sections/Parallax"
+import Roadmap from "@/components/sections/Roadmap"
+import Services from "@/components/sections/Services"
+import AboutUsStyleOne from "./about-us"
+import MainBusiness from "@/components/sections/MainBusiness"
+import MeetCEO from "@/components/sections/MeetCEO"
+
+export default function Home7() {
 
     return (
         <>
-            <Layout headerStyle={1}>
-                <Slider />
-                <About />
-                <Brand />
-                <Video />
-                <Features />
-                <Project />
-                <Testimonial />
-                <Blog />
+            <Layout>
+                <Parallax />
+                <Banner />
+                <Services />
+                <AboutUsStyleOne sectionSpace="section-pb-140" />
+                <MainBusiness />
+                <MeetCEO />
+                <Roadmap />
                 <Newsletter />
             </Layout>
         </>

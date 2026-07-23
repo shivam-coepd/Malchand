@@ -1,7 +1,6 @@
 "use client"
-import Link from "next/link"
 
-export default function Banner6() {
+export default function Banner() {
     return (
         <>
             <section className="banner-area-seven">
